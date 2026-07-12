@@ -1,0 +1,1 @@
+import{j as a,m as r}from"../assets/proxy.js";function n({children:i,className:t=""}){return a.jsx(r.div,{initial:{opacity:0,filter:"blur(10px)",y:20},animate:{opacity:1,filter:"blur(0px)",y:0},exit:{opacity:0,filter:"blur(10px)",y:-20},transition:{duration:.8,ease:[.22,1,.36,1]},className:`min-h-screen w-full ${t}`,children:i})}export{n as P};
